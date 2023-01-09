@@ -38,11 +38,11 @@ public static void main(String[]args){
     // bölme(20, 5);
     // carpma(2,14);
     Scanner input = new Scanner(System.in);
-    System.out.println("işaret girr bro");
+    System.out.print("işaret giriniz:");
     char sign = input.next().charAt(0);
-    System.out.println("sayıları gir bro");
+    System.out.print("sayıları giriniz:");
     int num1 = input.nextInt();
-    System.out.println("ikinci sayıyı gir");
+    System.out.print("ikinci sayıyı giriniz:");
     int num2 = input.nextInt();
 
     switch (sign) {

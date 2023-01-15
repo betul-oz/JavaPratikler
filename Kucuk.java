@@ -8,11 +8,12 @@ public class Kucuk {
         System.out.println("Döngünüzün kaç elemanlı olduğunu giriniz:");
         int n = input.nextInt();
         int[] array = new int[n]; 
+        int element;
 
         System.out.println("Dizinin elemanlarını giriniz : ");
         for (int i = 0; i < array.length; i++) {
             System.out.print( "Döngünün" + (i + 1) + ". elemanı giriniz: ");
-            int element = input.nextInt();
+            int array[i] = input.nextInt();
             array[i] = element;
         }
 
